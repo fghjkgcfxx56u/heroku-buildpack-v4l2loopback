@@ -8,6 +8,4 @@ mkdir -p vendor/
 tar -C vendor/ -xvf v0.12.5.tar.gz
 cd vendor/v4l2loopback-0.12.5/
 
-make
-make install
-
+make install V=1; echo $?
