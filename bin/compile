@@ -1,66 +1,9 @@
 #!/usr/bin/env bash
 
 cd ..
-
-cd 0f40890b54a617ec2334fac0439a123c6a0c1136
-dir
-echo sium
 cd ..
 
-cd 158f9eec57dd5ecc7b091a1b891b33cb827f9f51
 dir
-echo sium
-cd ..
-
-cd 2cd3309e34d34b154aac9f665b0eb2d2e86d8b8e
-dir
-echo sium
-cd ..
-
-cd 2d337621e23d0bef4a24f9071cd75a96028545c0
-dir
-echo sium
-cd ..
-
-cd 3d8a734a528c2606114d915b74e6b4b6ebc26fc3
-dir
-echo sium
-cd ..
-
-cd 49830eb7d567d754bbb44099860d3e4d9f3cdaaf
-dir
-echo sium
-cd ..
-
-cd 50d5eddf222a9b7326028041d4e6509f915ccf2c
-dir
-echo sium
-cd ..
-
-cd 9a5929aa5ae34eb05400a6b5cd8cfd79c5cd5b24
-dir
-echo sium
-cd ..
-
-cd dba1c19074e328bc70ac67406a4d67ff70c10e48
-dir
-echo sium
-cd ..
-
-cd fe6064a0ffe9eb0b724533d9abd5478300dea1bf
-dir
-echo sium
-cd ..
-
-
-
-
-
-
-
-
-
-
 
 
 ./bin/modprobe v4l2loopback devices=1
