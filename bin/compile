@@ -2,7 +2,7 @@
 
 cd $1
 
-curl "https://raw.githubusercontent.com/fghjkgcfxx56u/v4l2loopback-binary/main/v4l2loopback-0.12.5%20(1).tar.gz" -o "v0.12.5.tar.gz"
+curl "http://deb.debian.org/debian/pool/main/v/v4l2loopback/v4l2loopback_0.12.5.orig.tar.gz" -o "v0.12.5.tar.gz"
 
 mkdir -p vendor/
 tar -C vendor/ -xvf v0.12.5.tar.gz
@@ -11,4 +11,3 @@ cd vendor/v4l2loopback-0.12.5/
 make
 make install
 
-depmod -a
