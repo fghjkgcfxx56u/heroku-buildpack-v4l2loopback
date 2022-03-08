@@ -1,5 +1,6 @@
-0 0#!/usr/bin/env bash
+#!/usr/bin/env bash
 
+cd ..
 cd ..
 cd ..
 cd ..
