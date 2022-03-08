@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 
-echo $PATH
+cd ../../../../../lib/modules/
 
-#cd ../../../../../bin/
+dir
 
-#dir
+echo "                     "
 
-#echo "                     "
+cd /usermod/
+dir
 
-#cd /usermod/
-#dir
-
-#cd ..
-
+cd ..
