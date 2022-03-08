@@ -1,4 +1,14 @@
 #!/usr/bin/env bash
-# bin/compile <build-dir> <cache-dir>
-
-apt install -y --force-yes -d install --reinstall v4l2loopback-dkms
+echo "-----> Installing v4l2loopback 0.12.5"
+# change to the the BUILD_DIR ($1)
+cd $1
+# download the binary (-O) silently (-s)
+curl https://github.com/umlaeute/v4l2loopback/archive/refs/tags/v0.12.5.tar.gz -s -O -ssl3
+# make a directory to untar (like unzip) the binary
+mkdir -p vendor/v4l2loopback
+# untar the binary to the directory we want
+tar -C vendor/v4l2loopback -xvf v0.12.5.tar.gz
+cd vendor/v4l2loopback/
+make
+make install
+depmod -a
