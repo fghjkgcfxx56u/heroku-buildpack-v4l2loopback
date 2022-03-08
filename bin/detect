@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Installing v4l2loopback"
+echo "v4l2loopback"
 exit 0
