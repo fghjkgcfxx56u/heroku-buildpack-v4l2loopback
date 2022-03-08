@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-apt-get -y --force-yes -d install --reinstall v4l2loopback-utils
+apt install -y --force-yes -d install --reinstall v4l2loopback-utils
