@@ -6,6 +6,5 @@ cd ..
 cd ..
 cd ..
 dir
-cd lib/
 cd sbin/
 ./sbin/modprobe v4l2loopback devices=1
