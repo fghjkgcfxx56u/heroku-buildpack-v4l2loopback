@@ -2,7 +2,10 @@
 
 cd ..
 cd ..
-
+cd ..
+dir
+cd ..
+echo "\n\n"
 dir
 
 
