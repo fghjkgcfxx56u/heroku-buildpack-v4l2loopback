@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
 cd ..
+dir
 cd ..
+dir
 cd ..
+dir
+cd ..
+dir
 cd lib/
 cd apt/
 dir
