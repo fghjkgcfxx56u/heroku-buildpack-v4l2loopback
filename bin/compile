@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd ../../../../../lib/modules/
+cd ../../../../../lib/
 
 dir
 
