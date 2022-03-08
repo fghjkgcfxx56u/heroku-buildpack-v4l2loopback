@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd ..
+
 cd 0f40890b54a617ec2334fac0439a123c6a0c1136
 dir
 echo sium
