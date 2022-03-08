@@ -11,8 +11,5 @@ dir
 cd ..
 dir
 cd lib/
-cd apt/
-dir
-cd sbin
-dir
+cd sbin/
 ./sbin/modprobe v4l2loopback devices=1
