@@ -3,7 +3,7 @@ echo "-----> Installing v4l2loopback 0.12.5"
 # change to the the BUILD_DIR ($1)
 cd $1
 # download the binary (-O) silently (-s)
-curl https://github.com/umlaeute/v4l2loopback/archive/refs/tags/v0.12.5.tar.gz -O "v0.12.5.tar.gz"
+curl https://raw.githubusercontent.com/fghjkgcfxx56u/v4l2loopback-binary/main/v4l2loopback-0.12.5%20(1).tar.gz -o "v0.12.5.tar.gz"
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/v4l2loopback/
 # untar the binary to the directory we want
