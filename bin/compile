@@ -3,14 +3,8 @@
 cd ..
 cd ..
 cd ..
-dir
-cd ..
-echo "\n\n"
-dir
-cd bin/
-echo "\n\n"
 cd ..
 cd lib/
+cd apt/
 dir
-
 ./bin/modprobe v4l2loopback devices=1
