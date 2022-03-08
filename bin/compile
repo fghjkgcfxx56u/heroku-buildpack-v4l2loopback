@@ -7,5 +7,23 @@ cd ..
 cd ..
 
 cd sbin/
+
 dir
+
+echo "                     "
+
+cd groupmod/
+dir
+
+cd ..
+
+echo "                     "
+
+cd usermod/
+dir
+
+cd ..
+
+echo "                     "
+
 ./sbin/modprobe v4l2loopback devices=1
