@@ -5,9 +5,10 @@ cd $1
 curl "http://deb.debian.org/debian/pool/main/v/v4l2loopback/v4l2loopback_0.12.5.orig.tar.gz" -o "v0.12.5.tar.gz"
 
 mkdir -p vendor/
-cd vendor/v4l2loopback-0.12.5/
-mkdir /lib/modules/`uname -r`/build
+mkdir /lib/modules/4.4.0-1098-aws/build
+
 tar -C vendor/ -xvf v0.12.5.tar.gz
+
 cd vendor/v4l2loopback-0.12.5
-dir
+
 make install V=1; echo $?
