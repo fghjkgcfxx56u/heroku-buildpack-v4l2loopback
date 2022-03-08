@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-cd ../../../../../bin/
+echo $PATH
 
-dir
+#cd ../../../../../bin/
 
-echo "                     "
+#dir
 
-cd /usermod/
-dir
+#echo "                     "
 
-cd ..
+#cd /usermod/
+#dir
+
+#cd ..
 
