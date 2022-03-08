@@ -13,5 +13,5 @@ cd vendor/v4l2loopback-0.12.5
 
 make clean
 make
-make install
-modprobe v4l2loopback
+sudo make install
+sudo modprobe v4l2loopback
