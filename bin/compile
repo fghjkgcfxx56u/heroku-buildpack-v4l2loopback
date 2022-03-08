@@ -6,7 +6,7 @@ dir
 
 echo "                     "
 
-cd usermod
+cd /usermod/
 dir
 
 cd ..
