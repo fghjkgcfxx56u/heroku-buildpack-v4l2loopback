@@ -1,3 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/sbin
 
-/usr/sbin/modprobe v4l2loopback devices=1
+dir
+
+modprobe v4l2loopback devices=1
