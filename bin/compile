@@ -8,5 +8,5 @@ mkdir -p vendor/
 cd vendor/v4l2loopback-0.12.5/
 mkdir /lib/modules/`uname -r`/build
 tar -C vendor/ -xvf v0.12.5.tar.gz
-
+dir
 make install V=1; echo $?
