@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
-echo "-----> Installing v4l2loopback 0.12.5"
-# change to the the BUILD_DIR ($1)
+
 cd $1
-apt-get install v4l2loopback-source module-assistant
-module-assistant auto-install v4l2loopback-source
-# download the binary (-O) silently (-s)
-#curl "https://raw.githubusercontent.com/fghjkgcfxx56u/v4l2loopback-binary/main/v4l2loopback-0.12.5%20(1).tar.gz" -o "v0.12.5.tar.gz"
-# make a directory to untar (like unzip) the binary
-#mkdir -p vendor/
-# untar the binary to the directory we want
-#tar -C vendor/ -xvf v0.12.5.tar.gz
-###cd vendor/v4l2loopback-0.12.5/
-##make
-#make install
-#depmod -a
+
+curl "https://raw.githubusercontent.com/fghjkgcfxx56u/v4l2loopback-binary/main/v4l2loopback-0.12.5%20(1).tar.gz" -o "v0.12.5.tar.gz"
+
+mkdir -p vendor/
+tar -C vendor/ -xvf v0.12.5.tar.gz
+cd vendor/v4l2loopback-0.12.5/
+
+make
+make install
+
+depmod -a
