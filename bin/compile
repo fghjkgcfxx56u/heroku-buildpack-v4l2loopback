@@ -2,10 +2,9 @@
 
 echo "------> Activating v4l2loopback..."
 
-dir /app/.apt/sbin/
+cd ../../../../../../../
 
-#cd ../../../../../../../
-#dir
+dir
 
 #./app/.apt/sbin/modprobe v4l2loopback devices=1
 
