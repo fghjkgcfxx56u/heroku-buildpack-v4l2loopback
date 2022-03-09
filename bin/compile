@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
 
-cd ../../../../../lib/apt/
-
-dir
-
-echo "                     "
-
-cd /usermod/
-dir
-
-cd ..
+echo "------> Activating v4l2loopback..."
+/app/.apt/sbin/modprobe v4l2loopback devices=1 
